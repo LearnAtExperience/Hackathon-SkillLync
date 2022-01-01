@@ -302,7 +302,7 @@ body {
 
 /* Styling for 576px starts */
 
-@media screen and (min-width: 576px) {
+@media (min-width: 576px) {
 
   .profile-img-container {
     bottom: -40%;
@@ -330,7 +330,7 @@ body {
 
 /* Styling for 768px starts */
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   
   .cover-img-container{
     height: 50vh;
@@ -378,7 +378,7 @@ body {
 
 /* styling for 992px starts */
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   
   .profile-img-container {
     width: 25%;
@@ -407,21 +407,23 @@ body {
 
 /* styling for 1200px starts */
 
-.profile-img-container {
+@media (min-width: 1200px) {
+ .profile-img-container {
   width: 17%;
   left: 75%;
   bottom: -45%;
-}
+ }
 
 .skill {
   width: 30%;
+ }
 }
 
 /* styling for 1200px ends */
  
 /* Styling for extra large devices starts */
 
-@media screen and (min-width: 1254px) {
+@media (min-width: 1254px) {
   
 .info-container {
   margin-top: 12%;
